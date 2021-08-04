@@ -1,0 +1,16 @@
+.nav-link {
+    color: var(--bs-dark) !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar-brand {
+    color: var(--bs-primary) !important;
+    font-weight: 800;
+}
+.navbar {
+    padding: 20px;
+}
+.active {
+    color: var(--bs-secondary) !important;
+    font-weight: 700;
+}
