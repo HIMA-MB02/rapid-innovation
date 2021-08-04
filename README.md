@@ -7,7 +7,7 @@
 2. font-awesome: For icons in the app
 3. Bootstrap CDN from Bootswatch (just to boost dev time)
 
-## To run the App
+## To Run
 ### npm i && npm start
 
 Installs the node-modules dependencies and runs the app in the development mode.
