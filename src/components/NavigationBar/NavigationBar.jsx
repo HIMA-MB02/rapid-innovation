@@ -5,7 +5,6 @@ import './NavigationBar.css';
 
 const NavigationBar = () => {
   const location = useLocation();
-  console.log(location.pathname, routes.home, routes.landingPage);
   return (
     <nav class='navbar navbar-expand-lg navbar-dark'>
       <div class='container'>
@@ -21,13 +20,13 @@ const NavigationBar = () => {
         <button
           class='navbar-toggler'
           type='button'
-          data-bs-toggle='collapse'
-          data-bs-target='#navbarColor01'
+          data-toggle='collapse'
+          data-target='#navbarColor01'
           aria-controls='navbarColor01'
           aria-expanded='false'
           aria-label='Toggle navigation'
         >
-          <span class='navbar-toggler-icon'></span>
+          <i class="fa fa-chevron-circle-down fa-2x menu-icon"></i>
         </button>
 
         <div class='collapse navbar-collapse' id='navbarColor01'>

@@ -21,21 +21,22 @@ const WelcomeSection = () => {
               </div>
             </div>
             <div className='row'>
-              <div className='col-md-12'>
-                <button className='btn btn-large btn-primary mr-1'>
+              <div className='col-sm-12'>
+                <button className='btn btn-large btn-primary mr-1 welcome-button'>
                   View All Pages
                 </button>
-                <button className='btn btn-large btn-outline-primary'>
+                <button className='btn btn-large btn-outline-primary welcome-button'>
                   Documentation
                 </button>
               </div>
             </div>
           </div>
-        </div>
+              </div>
         <div className='col-md-6 d-none d-lg-block'>
           <img src={TeamImage} className='team-img' alt='team' />
         </div>
-      </div>
+          </div>
+          <hr className='mobile-hr'/>
       <div className='row cards-section'>
         <div className='col-md-4'>
           <div className='container'>
