@@ -7,6 +7,14 @@ import {
 } from '../../components';
 
 const LandingPage = () => {
+  var obj = {
+    page: 0,
+    book: 3
+  }
+  const newOb = {
+    timestamp: 0,
+    ...obj
+  }
   return (
     <>
       <div className='container-fluid' id='welcome-section'>
